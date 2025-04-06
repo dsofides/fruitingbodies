@@ -1,0 +1,959 @@
+﻿Log file open, 04/06/25 20:46:07
+LogInit: Display: Running engine for game: FruitingBodies
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 83 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.159255
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-14700HX, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-19.46.07:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.04.06-19.46.07:585][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2025.04.06-19.46.07:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-19.46.07:586][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-19.46.07:588][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.04.06-19.46.07:588][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2025.04.06-19.46.07:589][  0]LogInit: Selected Device Profile: [Windows]
+[2025.04.06-19.46.07:589][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2025.04.06-19.46.07:589][  0]LogHAL: Display: Platform has ~ 32 GB [34053414912 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.04.06-19.46.07:589][  0]LogInit: Going up to parent DeviceProfile []
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2025.04.06-19.46.07:589][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.04.06-19.46.07:590][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2025.04.06-19.46.07:590][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.04.06-19.46.07:590][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.04.06-19.46.07:590][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-19.46.07:590][  0]LogInit: Computer: WORLDENGINEIII
+[2025.04.06-19.46.07:590][  0]LogInit: User: dsofi
+[2025.04.06-19.46.07:590][  0]LogInit: CPU Page size=4096, Cores=20
+[2025.04.06-19.46.07:590][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.04.06-19.46.07:590][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2025.04.06-19.46.07:590][  0]LogMemory: Platform Memory Stats for Windows
+[2025.04.06-19.46.07:590][  0]LogMemory: Process Physical Memory: 123.86 MB used, 123.86 MB peak
+[2025.04.06-19.46.07:590][  0]LogMemory: Process Virtual Memory: 113.83 MB used, 113.83 MB peak
+[2025.04.06-19.46.07:590][  0]LogMemory: Physical Memory: 19578.83 MB used,  12897.04 MB free, 32475.87 MB total
+[2025.04.06-19.46.07:590][  0]LogMemory: Virtual Memory: 5272.46 MB used,  134212456.00 MB free, 134217728.00 MB total
+[2025.04.06-19.46.07:651][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.04.06-19.46.07:688][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2025.04.06-19.46.07:689][  0]LogInit: Using OS detected language (en-US).
+[2025.04.06-19.46.07:689][  0]LogInit: Using OS detected locale (en-US).
+[2025.04.06-19.46.07:691][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2025.04.06-19.46.07:802][  0]LogInit: Setting process to per monitor DPI aware
+[2025.04.06-19.46.07:833][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2025.04.06-19.46.07:833][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.04.06-19.46.07:937][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2025.04.06-19.46.07:937][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2025.04.06-19.46.07:937][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2025.04.06-19.46.07:937][  0]LogD3D11RHI: D3D11 adapters:
+[2025.04.06-19.46.08:126][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 4070 Laptop GPU' (Feature Level 11_0)
+[2025.04.06-19.46.08:126][  0]LogD3D11RHI:       7948/0/16237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2025.04.06-19.46.08:153][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2025.04.06-19.46.08:153][  0]LogD3D11RHI:       128/0/16237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2025.04.06-19.46.08:155][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2025.04.06-19.46.08:155][  0]LogD3D11RHI:       0/0/16237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2025.04.06-19.46.08:155][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2025.04.06-19.46.08:163][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2025.04.06-19.46.08:163][  0]LogD3D11RHI:     GPU DeviceId: 0x2860 (for the marketing name, search the web for "GPU Device Id")
+[2025.04.06-19.46.08:163][  0]LogWindows: EnumDisplayDevices:
+[2025.04.06-19.46.08:164][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2025.04.06-19.46.08:164][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2025.04.06-19.46.08:164][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2025.04.06-19.46.08:164][  0]LogWindows:    3. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2025.04.06-19.46.08:165][  0]LogWindows:    4. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-19.46.08:165][  0]LogWindows:    5. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-19.46.08:165][  0]LogWindows:    6. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-19.46.08:165][  0]LogWindows:    7. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-19.46.08:165][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2025.04.06-19.46.08:165][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 4070 Laptop GPU
+[2025.04.06-19.46.08:165][  0]LogD3D11RHI:   Driver Version: 561.03 (internal:32.0.15.6103, unified:561.03)
+[2025.04.06-19.46.08:165][  0]LogD3D11RHI:      Driver Date: 8-30-2024
+[2025.04.06-19.46.08:165][  0]LogRHI: Texture pool is 5563 MB (70% of 7948 MB)
+[2025.04.06-19.46.08:239][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2025.04.06-19.46.08:240][  0]LogD3D11RHI: Async texture creation enabled
+[2025.04.06-19.46.08:240][  0]LogD3D11RHI: Array index from any shader is supported
+[2025.04.06-19.46.08:258][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2025.04.06-19.46.08:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.04.06-19.46.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.04.06-19.46.08:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.04.06-19.46.08:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.04.06-19.46.08:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.04.06-19.46.08:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2025.04.06-19.46.08:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.04.06-19.46.08:520][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.04.06-19.46.08:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2025.04.06-19.46.08:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2025.04.06-19.46.08:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2025.04.06-19.46.08:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2025.04.06-19.46.08:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2025.04.06-19.46.08:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.04.06-19.46.08:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.04.06-19.46.08:573][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2025.04.06-19.46.08:580][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.04.06-19.46.08:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.04.06-19.46.08:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.04.06-19.46.08:593][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.04.06-19.46.08:598][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.04.06-19.46.08:643][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Intermediate/Shaders/WorkingDirectory/23400/).
+[2025.04.06-19.46.08:643][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dsofi/AppData/Local/Temp/UnrealShaderWorkingDir/324E2C5448895B8FA94502B41D9D9EC5/'.
+[2025.04.06-19.46.08:644][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.04.06-19.46.08:644][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2025.04.06-19.46.08:644][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2025.04.06-19.46.09:129][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2025.04.06-19.46.09:168][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/dsofi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2025.04.06-19.46.09:168][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dsofi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2025.04.06-19.46.09:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.04.06-19.46.09:168][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2025.04.06-19.46.09:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.06-19.46.09:168][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2025.04.06-19.46.09:176][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2025.04.06-19.46.09:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.06-19.46.09:176][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2025.04.06-19.46.09:177][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dsofi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2025.04.06-19.46.09:177][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2025.04.06-19.46.09:177][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2025.04.06-19.46.09:207][  0]LogSlate: Using FreeType 2.10.0
+[2025.04.06-19.46.09:208][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.04.06-19.46.09:227][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2025.04.06-19.46.09:358][  0]LogInit: Selected Device Profile: [Windows]
+[2025.04.06-19.46.09:433][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.04.06-19.46.09:433][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2025.04.06-19.46.09:433][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.04.06-19.46.09:433][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2025.04.06-19.46.09:433][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.04.06-19.46.09:443][  0]LogNetVersion: FruitingBodies 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3511453576)
+[2025.04.06-19.46.09:724][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000201DE7E4340), frame # 0
+[2025.04.06-19.46.09:724][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201DE72CE00), frame # 0
+[2025.04.06-19.46.09:725][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201DE790800), frame # 0
+[2025.04.06-19.46.09:751][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.019844 seconds
+[2025.04.06-19.46.09:754][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2025.04.06-19.46.09:754][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2025.04.06-19.46.09:754][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.04.06-19.46.10:004][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.04.06-19.46.10:008][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.04.06-19.46.10:067][  0]SourceControl: Source control is disabled
+[2025.04.06-19.46.10:067][  0]SourceControl: Source control is disabled
+[2025.04.06-19.46.10:070][  0]SourceControl: Source control is disabled
+[2025.04.06-19.46.10:072][  0]SourceControl: Source control is disabled
+[2025.04.06-19.46.10:077][  0]SourceControl: Source control is disabled
+[2025.04.06-19.46.10:270][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.04.06-19.46.10:285][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.06-19.46.10:285][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.06-19.46.10:322][  0]LogOcInput: OculusInput pre-init called
+[2025.04.06-19.46.10:330][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2025.04.06-19.46.10:330][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2025.04.06-19.46.10:373][  0]LogEngine: Initializing Engine...
+[2025.04.06-19.46.10:374][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2025.04.06-19.46.10:374][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2025.04.06-19.46.10:374][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.04.06-19.46.10:452][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.04.06-19.46.10:458][  0]LogAIModule: Creating AISystem for world Untitled
+[2025.04.06-19.46.10:458][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201E9C9FC00), frame # 0
+[2025.04.06-19.46.10:458][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201E9D1E700), frame # 0
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.46.10:464][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.46.10:464][  0]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.46.10:464][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.46.10:520][  0]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.46.10:520][  0]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.46.10:782][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.46.10:784][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.46.10:786][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.46.10:786][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.46.10:787][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.46.10:787][  0]LogInit: FAudioDevice initialized.
+[2025.04.06-19.46.10:787][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.04.06-19.46.10:823][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/dsofi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2025.04.06-19.46.10:824][  0]LogInit: Texture streaming: Enabled
+[2025.04.06-19.46.10:838][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2025.04.06-19.46.10:838][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2025.04.06-19.46.10:839][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2025.04.06-19.46.10:869][  0]LogInit: Transaction tracking system initialized
+[2025.04.06-19.46.10:886][  0]BlueprintLog: New page: Editor Load
+[2025.04.06-19.46.10:941][  0]LocalizationService: Localization service is disabled
+[2025.04.06-19.46.11:052][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2025.04.06-19.46.11:052][  0]LogCook: Display: Mobile HDR setting 1
+[2025.04.06-19.46.11:162][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/' took 0.00s
+[2025.04.06-19.46.11:285][  0]SourceControl: Source control is disabled
+[2025.04.06-19.46.11:399][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.04.06-19.46.14:925][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2025.04.06-19.46.14:926][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2025.04.06-19.46.14:977][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2025.04.06-19.46.14:979][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.322
+[2025.04.06-19.46.14:979][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2025.04.06-19.46.14:979][  0]LightingResults: New page: Lighting Build
+[2025.04.06-19.46.14:980][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.46.14:980][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.46.14:980][  0]MapCheck: New page: Map Check
+[2025.04.06-19.46.14:980][  0]LightingResults: New page: Lighting Build
+[2025.04.06-19.46.14:998][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000201E9C9FC00), frame # 0
+[2025.04.06-19.46.14:998][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000201E9D1E700), frame # 0
+[2025.04.06-19.46.14:998][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.04.06-19.46.15:124][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.46.15:124][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201FF33D000), frame # 0
+[2025.04.06-19.46.15:124][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201FF2D6D40), frame # 0
+[2025.04.06-19.46.15:171][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.06-19.46.15:187][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.04.06-19.46.15:187][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.06-19.46.15:187][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.156ms to complete.
+[2025.04.06-19.46.15:187][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.208
+[2025.04.06-19.46.15:189][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.531
+[2025.04.06-19.46.15:252][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.46.15:257][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.46.15:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.46.15:267][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.46.15:273][  0]LogCollectionManager: Loaded 0 collections in 0.000933 seconds
+[2025.04.06-19.46.15:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Collections/' took 0.00s
+[2025.04.06-19.46.15:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/Developers/dsofi/Collections/' took 0.00s
+[2025.04.06-19.46.15:284][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/Collections/' took 0.00s
+[2025.04.06-19.46.15:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3427 classes and 821 folders.
+[2025.04.06-19.46.15:285][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.04.06-19.46.15:316][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.04.06-19.46.15:317][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2025.04.06-19.46.15:343][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.04.06-19.46.15:346][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.04.06-19.46.15:371][  0]LogRenderer: Reallocating scene render targets to support 1296x700 Format 10 NumSamples 1 (Frame:1).
+[2025.04.06-19.46.15:500][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.04.06-19.46.15:500][  0]LogLoad: (Engine Initialization) Total time: 8.84 seconds
+[2025.04.06-19.46.15:500][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2025.04.06-19.46.15:539][  0]LogAssetRegistry: Asset discovery search completed in 6.3134 seconds
+[2025.04.06-19.46.15:542][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2025.04.06-19.46.15:548][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.04.06-19.46.19:999][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/FruitingBodiesApp.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.19:999][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/FruitingBodiesApp.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.19:999][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/FruitingBodiesApp.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.19:999][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/FruitingBodiesApp.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.19:999][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LoadErrors: Failed to load /Game/Textures/AppNameplate.AppNameplate Referenced by Button_113
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:000][261]LogLinker: Warning: While loading '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset' failed to load '/Game/Textures/AppNameplate': Can't find file.
+[2025.04.06-19.46.20:052][261]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.06-19.46.20:079][261]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController
+[2025.04.06-19.46.20:205][261]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2025.04.06-19.46.20:732][261]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.04.06-19.46.20:789][262]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.04.06-19.46.38:630][663]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/3D/NeanderthalDEC.obj)
+[2025.04.06-19.46.38:644][663]LogFbx: Loading FBX Scene from D:/3D/NeanderthalDEC.obj
+[2025.04.06-19.46.38:805][663]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.06-19.46.39:972][663]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.04.06-19.46.40:092][663]LogMaterial: Display: Missing cached shader map for material Group22613Mat, compiling. 
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (1/25): shaders left to compile 15
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (2/25): shaders left to compile 14
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (3/25): shaders left to compile 13
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (4/25): shaders left to compile 12
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (5/25): shaders left to compile 11
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (6/25): shaders left to compile 10
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (7/25): shaders left to compile 9
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (8/25): shaders left to compile 8
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (9/25): shaders left to compile 7
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (10/25): shaders left to compile 6
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (11/25): shaders left to compile 5
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (12/25): shaders left to compile 4
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (13/25): shaders left to compile 3
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (14/25): shaders left to compile 2
+[2025.04.06-19.46.40:238][663]LogShaderCompilers: Display: Worker (15/25): shaders left to compile 1
+[2025.04.06-19.46.40:240][663]LogStaticMesh: Building static mesh NeanderthalDEC...
+[2025.04.06-19.46.42:477][663]LogStaticMesh: Built static mesh [2.24s] /Game/Meshes/NeanderthalDEC.NeanderthalDEC
+[2025.04.06-19.46.42:542][663]LogStaticMesh: Warning: NeanderthalDEC has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2025.04.06-19.46.42:542][663]LogStaticMesh: Warning: NeanderthalDEC has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2025.04.06-19.46.42:542][663]LogStaticMesh: Warning: NeanderthalDEC has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2025.04.06-19.46.42:608][663]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.04.06-19.46.42:608][663]FBXImport: Warning: NeanderthalDEC has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2025.04.06-19.46.42:608][663]FBXImport: Warning: NeanderthalDEC has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2025.04.06-19.46.42:608][663]FBXImport: Warning: NeanderthalDEC has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2025.04.06-19.46.42:768][663]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.04.06-19.46.44:069][733]LogSlate: Window 'Message Log' being destroyed
+[2025.04.06-19.46.44:080][733]LogSlate: Window 'Message Log' being destroyed
+[2025.04.06-19.46.50:667][112]LogRenderer: Reallocating scene render targets to support 1296x864 Format 10 NumSamples 1 (Frame:635).
+[2025.04.06-19.47.07:165][101]BlueprintLog: New page: Compile BP_PlayerWorldController
+[2025.04.06-19.47.07:253][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2025.04.06-19.47.08:106][140]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/BP_PlayerWorldController301300394ADC55D22A7B56A62243BD50.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/Blueprints/BP_PlayerWorldController.uasset'
+[2025.04.06-19.47.08:127][140]AssetCheck: New page: Asset Save: BP_PlayerWorldController
+[2025.04.06-19.47.08:127][140]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController
+[2025.04.06-19.47.08:718][176]LogSlate: Window 'BP_PlayerWorldController' being destroyed
+[2025.04.06-19.47.08:735][176]LogSlate: Window 'BP_PlayerWorldController' being destroyed
+[2025.04.06-19.47.08:742][176]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.47.08:742][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.09:356][211]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.47.09:366][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.47.09:366][211]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:47:09 PM)
+[2025.04.06-19.47.09:368][211]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2025.04.06-19.47.09:370][211]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2025.04.06-19.47.09:370][211]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.47.09:380][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010587s)
+[2025.04.06-19.47.09:381][211]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.47.09:381][211]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020225D9EA00), frame # 2211
+[2025.04.06-19.47.09:381][211]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201BE1842C0), frame # 2211
+[2025.04.06-19.47.09:381][211]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2025.04.06-19.47.09:381][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011437s)
+[2025.04.06-19.47.09:413][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.47.09:414][211]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.47.09:414][211]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.47.09:414][211]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.47.09:417][211]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.47.09:417][211]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.47.09:479][211]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.47.09:480][211]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.47.09:480][211]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.47.09:480][211]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.47.09:480][211]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.47.09:492][211]LogInit: FAudioDevice initialized.
+[2025.04.06-19.47.09:508][211]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.47.09:512][211]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.47.09
+[2025.04.06-19.47.09:514][211]LogWorld: Bringing up level for play took: 0.004548
+[2025.04.06-19.47.09:514][211]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2025.04.06-19.47.09:516][211]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2025.04.06-19.47.09:518][211]PIE: Server logged in
+[2025.04.06-19.47.09:519][211]PIE: Play in editor total start time 0.154 seconds.
+[2025.04.06-19.47.14:000][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.47.14:000][467]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.47.14:000][467]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.47.14:002][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.14:008][467]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.47.14:010][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.14:049][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.47.14:075][467]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000201BE1842C0), frame # 2467
+[2025.04.06-19.47.14:075][467]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020225D9EA00), frame # 2467
+[2025.04.06-19.47.14:078][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2025.04.06-19.47.14:096][468]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2025.04.06-19.47.15:553][554]LogHttp: Warning: 0000020219648800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5392C8D4-4618-1A05-1568-D79E2D75D6DF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-19.47.15:553][554]LogHttp: Warning: 0000020219648800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-19.47.15:553][554]LogHttp: Warning: 0000020219648800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-19.47.15:553][554]LogHttp: Warning: 0000020219648800: libcurl info message cache 1 (Closing connection 0)
+[2025.04.06-19.47.15:553][554]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5392C8D4-4618-1A05-1568-D79E2D75D6DF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-19.47.15:607][555]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/NeanderthalDEC.NeanderthalDEC
+[2025.04.06-19.47.15:869][555]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.47.15:869][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.16:166][555]LogRenderer: Reallocating scene render targets to support 1528x1112 Format 10 NumSamples 1 (Frame:1).
+[2025.04.06-19.47.17:182][612]LogSlate: Window 'NeanderthalDEC' being destroyed
+[2025.04.06-19.47.17:192][612]LogSlate: Window 'NeanderthalDEC' being destroyed
+[2025.04.06-19.47.17:199][612]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.47.17:199][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.26:539][788]LogSlate: Window 'Message' being destroyed
+[2025.04.06-19.47.26:557][788]Message dialog closed, result: Yes, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Meshes/NeanderthalDEC
+[2025.04.06-19.47.26:560][788]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/3D/NeanderthalDEC.obj)
+[2025.04.06-19.47.26:565][788]LogEditorFactories: Performing atomic reimport of [D:/3D/NeanderthalDEC.obj]
+[2025.04.06-19.47.26:573][788]LogFbx: Loading FBX Scene from D:/3D/NeanderthalDEC.obj
+[2025.04.06-19.47.26:740][788]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.06-19.47.26:942][788]LogStaticMesh: Building static mesh NeanderthalDEC...
+[2025.04.06-19.47.28:972][788]LogStaticMesh: Built static mesh [2.03s] /Game/Meshes/NeanderthalDEC.NeanderthalDEC
+[2025.04.06-19.47.29:039][788]LogStaticMesh: Warning: NeanderthalDEC has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2025.04.06-19.47.29:039][788]LogStaticMesh: Warning: NeanderthalDEC has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2025.04.06-19.47.29:039][788]LogStaticMesh: Warning: NeanderthalDEC has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2025.04.06-19.47.29:111][788]LogEditorFactories: -- imported successfully
+[2025.04.06-19.47.29:115][788]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.04.06-19.47.29:115][788]FBXImport: Warning: NeanderthalDEC has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2025.04.06-19.47.29:115][788]FBXImport: Warning: NeanderthalDEC has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2025.04.06-19.47.29:115][788]FBXImport: Warning: NeanderthalDEC has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2025.04.06-19.47.33:991][857]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/3D/NeanderthalDECWIP.obj)
+[2025.04.06-19.47.33:996][857]LogFbx: Loading FBX Scene from D:/3D/NeanderthalDECWIP.obj
+[2025.04.06-19.47.34:027][857]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.06-19.47.34:926][857]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.04.06-19.47.34:958][857]LogMaterial: Display: Missing cached shader map for material Group3506Mat, compiling. 
+[2025.04.06-19.47.34:980][857]LogShaderCompilers: Display: Worker (1/25): shaders left to compile 15
+[2025.04.06-19.47.34:980][857]LogShaderCompilers: Display: Worker (2/25): shaders left to compile 14
+[2025.04.06-19.47.34:980][857]LogShaderCompilers: Display: Worker (3/25): shaders left to compile 13
+[2025.04.06-19.47.34:980][857]LogShaderCompilers: Display: Worker (4/25): shaders left to compile 12
+[2025.04.06-19.47.34:980][857]LogShaderCompilers: Display: Worker (5/25): shaders left to compile 11
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (6/25): shaders left to compile 10
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (7/25): shaders left to compile 9
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (8/25): shaders left to compile 8
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (9/25): shaders left to compile 7
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (10/25): shaders left to compile 6
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (11/25): shaders left to compile 5
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (12/25): shaders left to compile 4
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (13/25): shaders left to compile 3
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (14/25): shaders left to compile 2
+[2025.04.06-19.47.34:981][857]LogShaderCompilers: Display: Worker (15/25): shaders left to compile 1
+[2025.04.06-19.47.34:984][857]LogStaticMesh: Building static mesh NeanderthalDECWIP...
+[2025.04.06-19.47.35:054][857]LogStaticMesh: Built static mesh [0.07s] /Game/Meshes/NeanderthalDECWIP.NeanderthalDECWIP
+[2025.04.06-19.47.35:069][857]LogStaticMesh: Warning: NeanderthalDECWIP has some nearly zero normals which can create some issues. (Tolerance of 1E-4)
+[2025.04.06-19.47.35:069][857]LogStaticMesh: Warning: NeanderthalDECWIP has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2025.04.06-19.47.35:090][857]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.04.06-19.47.35:090][857]FBXImport: Warning: NeanderthalDECWIP has some nearly zero normals which can create some issues. (Tolerance of 1E-4) 
+[2025.04.06-19.47.35:090][857]FBXImport: Warning: NeanderthalDECWIP has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2025.04.06-19.47.36:703][940]LogSlate: Window 'Message Log' being destroyed
+[2025.04.06-19.47.36:718][940]LogSlate: Window 'Message Log' being destroyed
+[2025.04.06-19.47.39:336][ 95]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController
+[2025.04.06-19.47.52:089][821]BlueprintLog: New page: Compile BP_PlayerWorldController
+[2025.04.06-19.47.52:180][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2025.04.06-19.47.52:460][831]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/BP_PlayerWorldController45ADBD26487AF1581A72E79F8F457050.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/Blueprints/BP_PlayerWorldController.uasset'
+[2025.04.06-19.47.52:483][831]AssetCheck: New page: Asset Save: BP_PlayerWorldController
+[2025.04.06-19.47.52:483][831]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController
+[2025.04.06-19.47.53:203][873]LogSlate: Window 'BP_PlayerWorldController' being destroyed
+[2025.04.06-19.47.53:218][873]LogSlate: Window 'BP_PlayerWorldController' being destroyed
+[2025.04.06-19.47.53:219][873]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.47.53:219][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.53:729][902]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.47.53:739][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.47.53:740][902]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:47:53 PM)
+[2025.04.06-19.47.53:740][902]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.47.53:748][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008462s)
+[2025.04.06-19.47.53:749][902]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.47.53:749][902]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002027821EA00), frame # 3902
+[2025.04.06-19.47.53:749][902]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000202780CFC40), frame # 3902
+[2025.04.06-19.47.53:749][902]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2025.04.06-19.47.53:749][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009362s)
+[2025.04.06-19.47.53:771][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.47.53:772][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.47.53:772][902]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.47.53:772][902]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.47.53:775][902]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.47.53:775][902]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.47.53:831][902]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.47.53:831][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.47.53:831][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.47.53:831][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.47.53:831][902]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.47.53:843][902]LogInit: FAudioDevice initialized.
+[2025.04.06-19.47.53:854][902]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.47.53:858][902]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.47.53
+[2025.04.06-19.47.53:860][902]LogWorld: Bringing up level for play took: 0.004873
+[2025.04.06-19.47.53:860][902]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2025.04.06-19.47.53:863][902]PIE: Server logged in
+[2025.04.06-19.47.53:863][902]PIE: Play in editor total start time 0.124 seconds.
+[2025.04.06-19.47.57:470][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.47.57:470][116]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.47.57:471][116]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.47.57:473][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.57:482][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.47.57:483][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.47.57:523][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.47.57:524][116]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000202780CFC40), frame # 4116
+[2025.04.06-19.47.57:524][116]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002027821EA00), frame # 4116
+[2025.04.06-19.47.57:526][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.06-19.47.57:542][117]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.04.06-19.47.58:264][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController
+[2025.04.06-19.48.11:951][958]LogEditorTransaction: Undo Modify Component(s)
+[2025.04.06-19.48.18:998][369]BlueprintLog: New page: Compile BP_PlayerWorldController
+[2025.04.06-19.48.19:053][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.06-19.48.19:383][383]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/BP_PlayerWorldController4F38973B41D74D0748F1A491D885B2E4.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/Blueprints/BP_PlayerWorldController.uasset'
+[2025.04.06-19.48.19:408][383]AssetCheck: New page: Asset Save: BP_PlayerWorldController
+[2025.04.06-19.48.19:408][383]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController
+[2025.04.06-19.48.21:409][503]LogSlate: Window 'BP_PlayerWorldController' being destroyed
+[2025.04.06-19.48.21:422][503]LogSlate: Window 'BP_PlayerWorldController' being destroyed
+[2025.04.06-19.48.21:422][503]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.48.21:422][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.48.29:466][978]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.04.06-19.48.32:317][149]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.48.32:326][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.48.32:326][149]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:48:32 PM)
+[2025.04.06-19.48.32:326][149]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.48.32:335][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008234s)
+[2025.04.06-19.48.32:335][149]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.48.32:335][149]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002021FB1DE00), frame # 6149
+[2025.04.06-19.48.32:335][149]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002021F4DF600), frame # 6149
+[2025.04.06-19.48.32:335][149]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2025.04.06-19.48.32:335][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009024s)
+[2025.04.06-19.48.32:353][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.48.32:355][149]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.48.32:355][149]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.48.32:355][149]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.48.32:358][149]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.48.32:358][149]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.48.32:424][149]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.48.32:424][149]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.48.32:424][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.48.32:424][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.48.32:424][149]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.48.32:437][149]LogInit: FAudioDevice initialized.
+[2025.04.06-19.48.32:445][149]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.48.32:448][149]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.48.32
+[2025.04.06-19.48.32:449][149]LogWorld: Bringing up level for play took: 0.004902
+[2025.04.06-19.48.32:449][149]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2025.04.06-19.48.32:452][149]PIE: Server logged in
+[2025.04.06-19.48.32:453][149]PIE: Play in editor total start time 0.128 seconds.
+[2025.04.06-19.48.39:051][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.48.39:051][542]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.48.39:052][542]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.48.39:055][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.48.39:062][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.48.39:064][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.48.39:100][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.48.39:101][542]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002021F4DF600), frame # 6542
+[2025.04.06-19.48.39:101][542]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002021FB1DE00), frame # 6542
+[2025.04.06-19.48.39:102][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.06-19.48.39:119][543]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2025.04.06-19.48.40:389][617]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.48.43:255][760]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/FruitingBodiesApp.FruitingBodiesApp
+[2025.04.06-19.48.56:710][430]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/3D/AppUIBackdropOld.png)
+[2025.04.06-19.48.56:718][430]LogTexture: Display: Building textures: AppUIBackdropOld (BGRA8, 723X718)
+[2025.04.06-19.49.00:993][556]LogSlate: Window 'Message' being destroyed
+[2025.04.06-19.49.01:010][556]Message dialog closed, result: Yes, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Textures/AppUIBackdrop
+[2025.04.06-19.49.01:012][556]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/3D/AppUIBackdrop.png)
+[2025.04.06-19.49.01:676][556]LogSlate: Window 'Message' being destroyed
+[2025.04.06-19.49.01:693][556]Message dialog closed, result: Yes, title: Message, text: You are about to import 'AppUIBackdrop' over an existing texture. Would you like to overwrite the existing settings?
+
+Yes or Yes to All: Overwrite the existing settings.
+No or No to All: Preserve the existing settings.
+Cancel: Abort the operation.
+[2025.04.06-19.49.01:703][556]LogTexture: Display: Building textures: AppUIBackdrop (BGRA8, 723X718)
+[2025.04.06-19.49.03:385][652]LogWindows: Windows GetLastError: The operation completed successfully. (0)

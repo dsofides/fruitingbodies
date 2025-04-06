@@ -1,0 +1,1389 @@
+﻿Log file open, 04/06/25 19:49:38
+LogInit: Display: Running engine for game: FruitingBodies
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 83 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.175711
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-14700HX, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-18.49.38:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2025.04.06-18.49.38:843][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-18.49.38:843][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-18.49.38:845][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.04.06-18.49.38:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2025.04.06-18.49.38:846][  0]LogInit: Selected Device Profile: [Windows]
+[2025.04.06-18.49.38:846][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2025.04.06-18.49.38:846][  0]LogHAL: Display: Platform has ~ 32 GB [34053414912 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.04.06-18.49.38:846][  0]LogInit: Going up to parent DeviceProfile []
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.04.06-18.49.38:846][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Scalability.ini]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.04.06-18.49.38:847][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Config/Windows/Engine.ini]
+[2025.04.06-18.49.38:847][  0]LogInit: Computer: WORLDENGINEIII
+[2025.04.06-18.49.38:847][  0]LogInit: User: dsofi
+[2025.04.06-18.49.38:847][  0]LogInit: CPU Page size=4096, Cores=20
+[2025.04.06-18.49.38:847][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.04.06-18.49.38:847][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2025.04.06-18.49.38:847][  0]LogMemory: Platform Memory Stats for Windows
+[2025.04.06-18.49.38:847][  0]LogMemory: Process Physical Memory: 123.27 MB used, 123.27 MB peak
+[2025.04.06-18.49.38:847][  0]LogMemory: Process Virtual Memory: 101.48 MB used, 101.48 MB peak
+[2025.04.06-18.49.38:847][  0]LogMemory: Physical Memory: 18764.09 MB used,  13711.78 MB free, 32475.87 MB total
+[2025.04.06-18.49.38:847][  0]LogMemory: Virtual Memory: 5260.21 MB used,  134212464.00 MB free, 134217728.00 MB total
+[2025.04.06-18.49.38:893][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.04.06-18.49.38:933][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2025.04.06-18.49.38:934][  0]LogInit: Using OS detected language (en-US).
+[2025.04.06-18.49.38:934][  0]LogInit: Using OS detected locale (en-US).
+[2025.04.06-18.49.38:937][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2025.04.06-18.49.39:054][  0]LogInit: Setting process to per monitor DPI aware
+[2025.04.06-18.49.39:084][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2025.04.06-18.49.39:084][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.04.06-18.49.39:191][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2025.04.06-18.49.39:191][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2025.04.06-18.49.39:191][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2025.04.06-18.49.39:191][  0]LogD3D11RHI: D3D11 adapters:
+[2025.04.06-18.49.39:382][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 4070 Laptop GPU' (Feature Level 11_0)
+[2025.04.06-18.49.39:382][  0]LogD3D11RHI:       7948/0/16237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2025.04.06-18.49.39:407][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2025.04.06-18.49.39:407][  0]LogD3D11RHI:       128/0/16237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2025.04.06-18.49.39:409][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2025.04.06-18.49.39:409][  0]LogD3D11RHI:       0/0/16237 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2025.04.06-18.49.39:409][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2025.04.06-18.49.39:417][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2025.04.06-18.49.39:417][  0]LogD3D11RHI:     GPU DeviceId: 0x2860 (for the marketing name, search the web for "GPU Device Id")
+[2025.04.06-18.49.39:417][  0]LogWindows: EnumDisplayDevices:
+[2025.04.06-18.49.39:417][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2025.04.06-18.49.39:417][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2025.04.06-18.49.39:417][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2025.04.06-18.49.39:418][  0]LogWindows:    3. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2025.04.06-18.49.39:418][  0]LogWindows:    4. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-18.49.39:418][  0]LogWindows:    5. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-18.49.39:418][  0]LogWindows:    6. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-18.49.39:418][  0]LogWindows:    7. 'NVIDIA GeForce RTX 4070 Laptop GPU' (P:0 D:0)
+[2025.04.06-18.49.39:418][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2025.04.06-18.49.39:418][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 4070 Laptop GPU
+[2025.04.06-18.49.39:418][  0]LogD3D11RHI:   Driver Version: 561.03 (internal:32.0.15.6103, unified:561.03)
+[2025.04.06-18.49.39:418][  0]LogD3D11RHI:      Driver Date: 8-30-2024
+[2025.04.06-18.49.39:418][  0]LogRHI: Texture pool is 5563 MB (70% of 7948 MB)
+[2025.04.06-18.49.39:491][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2025.04.06-18.49.39:491][  0]LogD3D11RHI: Async texture creation enabled
+[2025.04.06-18.49.39:491][  0]LogD3D11RHI: Array index from any shader is supported
+[2025.04.06-18.49.39:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2025.04.06-18.49.39:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.04.06-18.49.39:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.04.06-18.49.39:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.04.06-18.49.39:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.04.06-18.49.39:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.04.06-18.49.39:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2025.04.06-18.49.39:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.04.06-18.49.39:778][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.04.06-18.49.39:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2025.04.06-18.49.39:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2025.04.06-18.49.39:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2025.04.06-18.49.39:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2025.04.06-18.49.39:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2025.04.06-18.49.39:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.04.06-18.49.39:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.04.06-18.49.39:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2025.04.06-18.49.39:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.04.06-18.49.39:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.04.06-18.49.39:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.04.06-18.49.39:853][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.04.06-18.49.39:859][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.04.06-18.49.39:910][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Intermediate/Shaders/WorkingDirectory/30644/).
+[2025.04.06-18.49.39:910][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dsofi/AppData/Local/Temp/UnrealShaderWorkingDir/26128C674DDF2FE57C95C9BB4AE4A009/'.
+[2025.04.06-18.49.39:910][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.04.06-18.49.39:910][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2025.04.06-18.49.39:910][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2025.04.06-18.49.40:404][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2025.04.06-18.49.40:445][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/dsofi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2025.04.06-18.49.40:445][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dsofi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2025.04.06-18.49.40:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.04.06-18.49.40:445][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2025.04.06-18.49.40:445][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.06-18.49.40:445][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2025.04.06-18.49.40:453][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2025.04.06-18.49.40:454][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2025.04.06-18.49.40:454][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2025.04.06-18.49.40:455][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dsofi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2025.04.06-18.49.40:455][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2025.04.06-18.49.40:455][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2025.04.06-18.49.40:486][  0]LogSlate: Using FreeType 2.10.0
+[2025.04.06-18.49.40:486][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.04.06-18.49.40:507][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2025.04.06-18.49.40:645][  0]LogInit: Selected Device Profile: [Windows]
+[2025.04.06-18.49.40:722][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.04.06-18.49.40:722][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2025.04.06-18.49.40:722][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.04.06-18.49.40:722][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2025.04.06-18.49.40:722][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.04.06-18.49.40:732][  0]LogNetVersion: FruitingBodies 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3511453576)
+[2025.04.06-18.49.41:007][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020D2580C340), frame # 0
+[2025.04.06-18.49.41:007][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D25760E00), frame # 0
+[2025.04.06-18.49.41:008][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D257A1E00), frame # 0
+[2025.04.06-18.49.41:031][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.018808 seconds
+[2025.04.06-18.49.41:034][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2025.04.06-18.49.41:035][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2025.04.06-18.49.41:035][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.04.06-18.49.41:299][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.04.06-18.49.41:303][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.04.06-18.49.41:367][  0]SourceControl: Source control is disabled
+[2025.04.06-18.49.41:367][  0]SourceControl: Source control is disabled
+[2025.04.06-18.49.41:370][  0]SourceControl: Source control is disabled
+[2025.04.06-18.49.41:373][  0]SourceControl: Source control is disabled
+[2025.04.06-18.49.41:379][  0]SourceControl: Source control is disabled
+[2025.04.06-18.49.41:588][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.04.06-18.49.41:607][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.06-18.49.41:607][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.04.06-18.49.41:645][  0]LogOcInput: OculusInput pre-init called
+[2025.04.06-18.49.41:653][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2025.04.06-18.49.41:653][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2025.04.06-18.49.41:701][  0]LogEngine: Initializing Engine...
+[2025.04.06-18.49.41:702][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2025.04.06-18.49.41:702][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2025.04.06-18.49.41:703][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.04.06-18.49.41:790][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.04.06-18.49.41:796][  0]LogAIModule: Creating AISystem for world Untitled
+[2025.04.06-18.49.41:796][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D30E4C600), frame # 0
+[2025.04.06-18.49.41:796][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D30E1AC00), frame # 0
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-18.49.41:802][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-18.49.41:802][  0]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-18.49.41:802][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-18.49.41:854][  0]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-18.49.41:854][  0]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-18.49.41:924][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-18.49.41:926][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-18.49.41:927][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-18.49.41:927][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-18.49.41:928][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-18.49.41:935][  0]LogInit: FAudioDevice initialized.
+[2025.04.06-18.49.41:935][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.04.06-18.49.41:971][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/dsofi/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2025.04.06-18.49.41:972][  0]LogInit: Texture streaming: Enabled
+[2025.04.06-18.49.41:985][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2025.04.06-18.49.41:985][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2025.04.06-18.49.41:986][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2025.04.06-18.49.42:018][  0]LogInit: Transaction tracking system initialized
+[2025.04.06-18.49.42:035][  0]BlueprintLog: New page: Editor Load
+[2025.04.06-18.49.42:087][  0]LocalizationService: Localization service is disabled
+[2025.04.06-18.49.42:190][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2025.04.06-18.49.42:190][  0]LogCook: Display: Mobile HDR setting 1
+[2025.04.06-18.49.42:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/' took 0.00s
+[2025.04.06-18.49.42:419][  0]SourceControl: Source control is disabled
+[2025.04.06-18.49.42:419][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.566
+[2025.04.06-18.49.42:419][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2025.04.06-18.49.42:420][  0]LightingResults: New page: Lighting Build
+[2025.04.06-18.49.42:420][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.49.42:420][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.49.42:420][  0]MapCheck: New page: Map Check
+[2025.04.06-18.49.42:420][  0]LightingResults: New page: Lighting Build
+[2025.04.06-18.49.42:436][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D30E4C600), frame # 0
+[2025.04.06-18.49.42:436][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D30E1AC00), frame # 0
+[2025.04.06-18.49.42:437][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.06-18.49.42:553][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-18.49.42:553][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D393A5000), frame # 0
+[2025.04.06-18.49.42:553][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D393A2D40), frame # 0
+[2025.04.06-18.49.42:589][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.06-18.49.42:603][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.06-18.49.42:603][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.06-18.49.42:603][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.135ms to complete.
+[2025.04.06-18.49.42:603][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.183
+[2025.04.06-18.49.42:604][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.750
+[2025.04.06-18.49.42:722][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.49.42:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.49.42:733][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.49.42:738][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.49.42:743][  0]LogCollectionManager: Loaded 0 collections in 0.001229 seconds
+[2025.04.06-18.49.42:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Collections/' took 0.00s
+[2025.04.06-18.49.42:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/Developers/dsofi/Collections/' took 0.00s
+[2025.04.06-18.49.42:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/Collections/' took 0.00s
+[2025.04.06-18.49.42:754][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3427 classes and 821 folders.
+[2025.04.06-18.49.42:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.04.06-18.49.42:784][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.04.06-18.49.42:784][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 2 classes and 0 folders.
+[2025.04.06-18.49.42:828][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.04.06-18.49.42:829][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.04.06-18.49.42:833][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.04.06-18.49.42:873][  0]LogRenderer: Reallocating scene render targets to support 1296x700 Format 10 NumSamples 1 (Frame:1).
+[2025.04.06-18.49.43:042][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2025.04.06-18.49.43:042][  0]LogLoad: (Engine Initialization) Total time: 5.19 seconds
+[2025.04.06-18.49.43:042][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2025.04.06-18.49.43:078][  0]LogAssetRegistry: Asset discovery search completed in 2.5724 seconds
+[2025.04.06-18.49.43:080][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2025.04.06-18.49.43:080][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.04.06-18.49.46:420][189]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.06-18.49.46:450][189]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.49.46:562][189]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2025.04.06-18.49.47:240][189]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.04.06-18.50.19:368][835]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/3D/FruitingBodies4.png)
+[2025.04.06-18.50.19:394][835]LogTexture: Display: Building textures: FruitingBodies4 (BGRA8, 1585X866)
+[2025.04.06-18.50.30:992][512]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.06-18.50.54:116][886]LogHttp: Warning: 0000020D91CEDD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-18.50.54:117][886]LogHttp: Warning: 0000020D91CEDD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-18.50.54:117][886]LogHttp: Warning: 0000020D91CEDD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-18.50.54:117][886]LogHttp: Warning: 0000020D91CEDD00: libcurl info message cache 1 (Closing connection 0)
+[2025.04.06-18.50.54:117][886]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-18.51.36:233][392]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.51.36:273][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2025.04.06-18.51.36:341][392]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.04.06-18.51.36:650][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.51.36:665][409]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasB0812BEB4D33A2A4000762880DF40D29.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.51.36:681][409]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.51.36:681][409]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.52.45:934][413]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.52.45:964][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.04.06-18.52.46:427][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.52.46:442][438]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Canvas0C2CA50D48DB241B0C1F1EB3184E7F30.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.52.46:456][438]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.52.46:456][438]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.52.54:171][898]LogHttp: Warning: 0000020D66700F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-18.52.54:171][898]LogHttp: Warning: 0000020D66700F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-18.52.54:171][898]LogHttp: Warning: 0000020D66700F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-18.52.54:171][898]LogHttp: Warning: 0000020D66700F00: libcurl info message cache 1 (Closing connection 1)
+[2025.04.06-18.52.54:171][898]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-18.53.23:591][658]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.53.23:623][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.04.06-18.53.24:032][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.53.24:046][678]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Canvas347184134645A4B55D2D7FB83CCDF8B2.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.53.24:065][678]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.53.24:065][678]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.53.26:665][828]LogSlate: Took 0.008680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.04.06-18.54.08:636][332]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.54.08:669][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2025.04.06-18.54.09:119][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.54.09:134][355]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Canvas20C25BE74A7887C10AF87FAB1A8B8D2A.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.54.09:154][355]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.54.09:154][355]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.54.39:629][168]LogEditorTransaction: Undo Edit Left
+[2025.04.06-18.54.58:559][289]LogEditorTransaction: Undo Add widget to animation
+[2025.04.06-18.55.05:262][678]LogHttp: Warning: 0000020D9B7B7200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-18.55.05:262][678]LogHttp: Warning: 0000020D9B7B7200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-18.55.05:262][678]LogHttp: Warning: 0000020D9B7B7200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-18.55.05:262][678]LogHttp: Warning: 0000020D9B7B7200: libcurl info message cache 1 (Closing connection 2)
+[2025.04.06-18.55.05:262][678]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-18.55.21:072][625]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.55.21:107][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.04.06-18.55.21:467][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.55.21:483][641]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasCF39A38D464BFA0B0829A6B8F0A58EB0.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.55.21:504][641]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.55.21:504][641]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.55.22:354][692]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-18.55.22:369][692]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-18.55.22:371][692]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.55.22:371][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.55.22:382][692]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.55.22:382][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.55.23:110][734]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-18.55.23:118][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-18.55.23:119][734]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 8:55:23 PM)
+[2025.04.06-18.55.23:120][734]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2025.04.06-18.55.23:121][734]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2025.04.06-18.55.23:121][734]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.55.23:130][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008460s)
+[2025.04.06-18.55.23:131][734]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-18.55.23:131][734]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D9CC27600), frame # 19734
+[2025.04.06-18.55.23:131][734]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D6AE696C0), frame # 19734
+[2025.04.06-18.55.23:131][734]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2025.04.06-18.55.23:131][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009407s)
+[2025.04.06-18.55.23:164][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.04.06-18.55.23:164][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-18.55.23:164][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-18.55.23:164][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-18.55.23:164][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-18.55.23:164][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-18.55.23:164][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-18.55.23:164][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-18.55.23:164][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-18.55.23:166][734]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-18.55.23:166][734]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-18.55.23:169][734]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-18.55.23:169][734]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-18.55.23:217][734]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-18.55.23:217][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-18.55.23:217][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-18.55.23:217][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-18.55.23:219][734]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-18.55.23:232][734]LogInit: FAudioDevice initialized.
+[2025.04.06-18.55.23:244][734]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-18.55.23:248][734]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-19.55.23
+[2025.04.06-18.55.23:251][734]LogWorld: Bringing up level for play took: 0.005655
+[2025.04.06-18.55.23:251][734]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2025.04.06-18.55.23:254][734]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2025.04.06-18.55.23:255][734]PIE: Server logged in
+[2025.04.06-18.55.23:256][734]PIE: Play in editor total start time 0.138 seconds.
+[2025.04.06-18.55.27:271][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.55.27:271][962]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.55.27:272][962]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.55.27:276][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.55.27:286][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-18.55.27:287][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.55.27:341][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.55.27:346][962]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D6AE696C0), frame # 19962
+[2025.04.06-18.55.27:346][962]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D9CC27600), frame # 19962
+[2025.04.06-18.55.27:372][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2025.04.06-18.55.27:391][963]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.04.06-18.55.29:545][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-18.55.29:555][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-18.55.29:555][ 91]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 8:55:29 PM)
+[2025.04.06-18.55.29:555][ 91]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.55.29:563][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008344s)
+[2025.04.06-18.55.29:564][ 91]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-18.55.29:564][ 91]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D92673800), frame # 20091
+[2025.04.06-18.55.29:564][ 91]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D95A08E00), frame # 20091
+[2025.04.06-18.55.29:564][ 91]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2025.04.06-18.55.29:564][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009167s)
+[2025.04.06-18.55.29:593][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-18.55.29:594][ 91]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-18.55.29:594][ 91]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-18.55.29:594][ 91]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-18.55.29:597][ 91]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-18.55.29:597][ 91]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-18.55.29:662][ 91]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-18.55.29:662][ 91]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-18.55.29:662][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-18.55.29:662][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-18.55.29:662][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-18.55.29:675][ 91]LogInit: FAudioDevice initialized.
+[2025.04.06-18.55.29:683][ 91]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-18.55.29:686][ 91]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-19.55.29
+[2025.04.06-18.55.29:687][ 91]LogWorld: Bringing up level for play took: 0.004625
+[2025.04.06-18.55.29:687][ 91]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2025.04.06-18.55.29:691][ 91]PIE: Server logged in
+[2025.04.06-18.55.29:692][ 91]PIE: Play in editor total start time 0.137 seconds.
+[2025.04.06-18.55.33:261][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.55.33:262][302]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.55.33:262][302]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.55.33:267][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.55.33:276][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-18.55.33:279][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.55.33:318][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.55.33:319][302]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D95A08E00), frame # 20302
+[2025.04.06-18.55.33:319][302]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D92673800), frame # 20302
+[2025.04.06-18.55.33:320][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.04.06-18.55.33:342][303]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.04.06-18.55.35:234][414]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.55.53:547][492]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.55.53:577][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2025.04.06-18.55.53:961][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.55.53:976][511]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Canvas04229383420DD81E1570FB9D92AC6C46.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.55.53:995][511]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.55.53:995][511]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.56.05:053][169]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.56.05:080][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.04.06-18.56.05:437][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.56.05:454][186]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasE2BDF09E4CBC3551577A9C9A5877A589.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.56.05:475][186]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.56.05:475][186]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.56.06:267][234]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-18.56.06:283][234]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-18.56.06:284][234]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.56.06:284][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.56.06:286][234]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.56.06:286][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.56.07:013][277]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-18.56.07:025][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-18.56.07:025][277]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 8:56:07 PM)
+[2025.04.06-18.56.07:025][277]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.56.07:034][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008302s)
+[2025.04.06-18.56.07:034][277]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-18.56.07:034][277]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D946E8600), frame # 22277
+[2025.04.06-18.56.07:034][277]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D9CD1B880), frame # 22277
+[2025.04.06-18.56.07:034][277]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2025.04.06-18.56.07:034][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009097s)
+[2025.04.06-18.56.07:052][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.04.06-18.56.07:053][277]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-18.56.07:053][277]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-18.56.07:054][277]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-18.56.07:054][277]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-18.56.07:054][277]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-18.56.07:054][277]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-18.56.07:054][277]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-18.56.07:054][277]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-18.56.07:054][277]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-18.56.07:054][277]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-18.56.07:056][277]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-18.56.07:056][277]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-18.56.07:116][277]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-18.56.07:116][277]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-18.56.07:116][277]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-18.56.07:116][277]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-18.56.07:116][277]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-18.56.07:129][277]LogInit: FAudioDevice initialized.
+[2025.04.06-18.56.07:134][277]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-18.56.07:137][277]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-19.56.07
+[2025.04.06-18.56.07:140][277]LogWorld: Bringing up level for play took: 0.004450
+[2025.04.06-18.56.07:140][277]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2025.04.06-18.56.07:142][277]PIE: Server logged in
+[2025.04.06-18.56.07:142][277]PIE: Play in editor total start time 0.118 seconds.
+[2025.04.06-18.56.10:541][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.56.10:541][477]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.56.10:542][477]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.56.10:545][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.56.10:555][477]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-18.56.10:556][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.56.10:593][477]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.56.10:594][477]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D9CD1B880), frame # 22477
+[2025.04.06-18.56.10:594][477]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D946E8600), frame # 22477
+[2025.04.06-18.56.10:595][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.06-18.56.10:629][478]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.04.06-18.56.11:035][503]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-18.56.11:045][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-18.56.11:045][503]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 8:56:11 PM)
+[2025.04.06-18.56.11:045][503]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.56.11:052][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008078s)
+[2025.04.06-18.56.11:053][503]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-18.56.11:053][503]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D9CB8DA00), frame # 22503
+[2025.04.06-18.56.11:053][503]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D3BFF1440), frame # 22503
+[2025.04.06-18.56.11:053][503]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2025.04.06-18.56.11:053][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008868s)
+[2025.04.06-18.56.11:069][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-18.56.11:069][503]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-18.56.11:069][503]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-18.56.11:069][503]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-18.56.11:072][503]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-18.56.11:072][503]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-18.56.11:123][503]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-18.56.11:124][503]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-18.56.11:124][503]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-18.56.11:124][503]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-18.56.11:124][503]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-18.56.11:137][503]LogInit: FAudioDevice initialized.
+[2025.04.06-18.56.11:147][503]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-18.56.11:149][503]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-19.56.11
+[2025.04.06-18.56.11:151][503]LogWorld: Bringing up level for play took: 0.004457
+[2025.04.06-18.56.11:151][503]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2025.04.06-18.56.11:153][503]PIE: Server logged in
+[2025.04.06-18.56.11:154][503]PIE: Play in editor total start time 0.11 seconds.
+[2025.04.06-18.56.13:911][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.56.13:911][665]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-18.56.13:912][665]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-18.56.13:916][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.56.13:924][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-18.56.13:926][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-18.56.13:951][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-18.56.13:969][665]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D3BFF1440), frame # 22665
+[2025.04.06-18.56.13:969][665]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D9CB8DA00), frame # 22665
+[2025.04.06-18.56.13:970][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.06-18.56.13:993][666]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.04.06-18.56.14:532][695]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.56.21:528][ 98]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.56.21:563][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.04.06-18.56.21:858][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.56.21:874][110]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasDCDDCD5341D02BD18A322289F7503ABC.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.56.21:897][110]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.56.21:897][110]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.56.34:995][894]LogEditorTransaction: Undo Delete Keys
+[2025.04.06-18.56.48:823][702]LogEditorTransaction: Undo Move Widget
+[2025.04.06-18.57.05:312][652]LogHttp: Warning: 0000020DB5EF2B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-18.57.05:312][652]LogHttp: Warning: 0000020DB5EF2B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-18.57.05:312][652]LogHttp: Warning: 0000020DB5EF2B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-18.57.05:312][652]LogHttp: Warning: 0000020DB5EF2B00: libcurl info message cache 1 (Closing connection 3)
+[2025.04.06-18.57.05:312][652]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-18.57.06:893][746]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.57.06:926][746]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.04.06-18.57.07:340][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.57.07:356][768]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasCFBEB9BF42BB99A252D415A3C1467705.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.57.07:372][768]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.57.07:372][768]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.57.09:416][888]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.06-18.57.10:715][965]BlueprintLog: New page: Compile Canvas
+[2025.04.06-18.57.10:770][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.04.06-18.57.11:192][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-18.57.11:207][987]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasC8C5CFAF48E7FABBEFDF30BFC4F60C4C.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-18.57.11:228][987]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-18.57.11:228][987]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-18.57.26:723][897]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/FruitingBodiesApp.FruitingBodiesApp
+[2025.04.06-18.57.36:431][458]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.06-18.58.25:169][358]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.06-18.59.16:406][405]LogHttp: Warning: 0000020DECA7DD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-18.59.16:406][405]LogHttp: Warning: 0000020DECA7DD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-18.59.16:406][405]LogHttp: Warning: 0000020DECA7DD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-18.59.16:406][405]LogHttp: Warning: 0000020DECA7DD00: libcurl info message cache 1 (Closing connection 4)
+[2025.04.06-18.59.16:423][406]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-18.59.54:508][669]BlueprintLog: New page: Compile FruitingBodiesApp
+[2025.04.06-18.59.54:540][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.04.06-18.59.54:973][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/FruitingBodiesApp" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/FruitingBodiesApp.uasset" SILENT=true
+[2025.04.06-18.59.54:978][690]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/FruitingBodiesAppE3F668914605A2E708B6589CE38CF0C9.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/FruitingBodiesApp.uasset'
+[2025.04.06-18.59.54:994][690]AssetCheck: New page: Asset Save: FruitingBodiesApp
+[2025.04.06-18.59.54:994][690]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/FruitingBodiesApp.FruitingBodiesApp
+[2025.04.06-19.00.18:552][ 59]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.06-19.01.16:482][487]LogHttp: Warning: 0000020DE5706B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-19.01.16:482][487]LogHttp: Warning: 0000020DE5706B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-19.01.16:482][487]LogHttp: Warning: 0000020DE5706B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-19.01.16:482][487]LogHttp: Warning: 0000020DE5706B00: libcurl info message cache 1 (Closing connection 5)
+[2025.04.06-19.01.16:498][488]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-19.02.51:433][171]BlueprintLog: New page: Compile Canvas
+[2025.04.06-19.02.51:486][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.04.06-19.02.51:790][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-19.02.51:807][184]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Canvas63D58DA7412903F3EFED72A2CA010306.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-19.02.51:828][184]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-19.02.51:828][184]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.02.52:931][249]LogSlate: Window 'FruitingBodiesApp' being destroyed
+[2025.04.06-19.02.52:947][249]LogSlate: Window 'FruitingBodiesApp' being destroyed
+[2025.04.06-19.02.52:949][249]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.02.52:949][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.02.52:960][249]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.02.52:960][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.02.52:992][249]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.02.52:992][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.02.53:003][249]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.02.53:003][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.02.53:539][279]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.02.54:057][308]LogEditorViewport: Clicking Background
+[2025.04.06-19.02.55:444][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.04.06-19.02.55:484][388]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Minimal_DefaultAC36A41247706F3D5B57CA9598B4EA6E.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/StarterContent/Maps/Minimal_Default.umap'
+[2025.04.06-19.02.55:498][388]LogEditorTransaction: Non zero active count in UTransBuffer::Reset
+ActiveCount : 2
+SessionName : 
+Reason      : Map Saved
+
+Purging the undo buffer...
+
+[2025.04.06-19.02.55:517][388]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Minimal_Default_BuiltDataDE140B0245B58995042AF5B9D2EADFFA.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2025.04.06-19.02.55:547][388]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.06-19.02.55:547][388]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2025.04.06-19.02.55:547][388]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2025.04.06-19.02.56:092][421]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.02.56:103][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.02.56:103][421]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:02:56 PM)
+[2025.04.06-19.02.56:103][421]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.02.56:111][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008010s)
+[2025.04.06-19.02.56:111][421]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.02.56:111][421]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D8E20B000), frame # 46421
+[2025.04.06-19.02.56:111][421]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020DEB1F1080), frame # 46421
+[2025.04.06-19.02.56:112][421]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2025.04.06-19.02.56:112][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008875s)
+[2025.04.06-19.02.56:147][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.02.56:150][421]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.02.56:150][421]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.02.56:150][421]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.02.56:154][421]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.02.56:154][421]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.02.56:210][421]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.02.56:210][421]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.02.56:210][421]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.02.56:210][421]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.02.56:210][421]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.02.56:224][421]LogInit: FAudioDevice initialized.
+[2025.04.06-19.02.56:235][421]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.02.56:238][421]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.02.56
+[2025.04.06-19.02.56:240][421]LogWorld: Bringing up level for play took: 0.004983
+[2025.04.06-19.02.56:240][421]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2025.04.06-19.02.56:243][421]PIE: Server logged in
+[2025.04.06-19.02.56:243][421]PIE: Play in editor total start time 0.142 seconds.
+[2025.04.06-19.03.00:879][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.03.00:879][696]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.03.00:880][696]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.03.00:884][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.00:891][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.03.00:893][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.00:931][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.03.00:932][696]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020DEB1F1080), frame # 46696
+[2025.04.06-19.03.00:932][696]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D8E20B000), frame # 46696
+[2025.04.06-19.03.00:934][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.06-19.03.00:957][697]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.04.06-19.03.01:328][719]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.03.01:336][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.03.01:336][719]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:03:01 PM)
+[2025.04.06-19.03.01:358][719]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.03.01:368][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010065s)
+[2025.04.06-19.03.01:369][719]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.03.01:369][719]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D354BA200), frame # 46719
+[2025.04.06-19.03.01:369][719]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020DEA4302C0), frame # 46719
+[2025.04.06-19.03.01:369][719]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2025.04.06-19.03.01:369][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010877s)
+[2025.04.06-19.03.01:387][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.03.01:388][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.03.01:388][719]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.03.01:388][719]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.03.01:391][719]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.03.01:391][719]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.03.01:454][719]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.03.01:454][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.03.01:454][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.03.01:454][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.03.01:454][719]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.03.01:468][719]LogInit: FAudioDevice initialized.
+[2025.04.06-19.03.01:474][719]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.03.01:477][719]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.03.01
+[2025.04.06-19.03.01:479][719]LogWorld: Bringing up level for play took: 0.004589
+[2025.04.06-19.03.01:479][719]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2025.04.06-19.03.01:482][719]PIE: Server logged in
+[2025.04.06-19.03.01:483][719]PIE: Play in editor total start time 0.146 seconds.
+[2025.04.06-19.03.04:429][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.03.04:429][893]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.03.04:430][893]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.03.04:432][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.04:442][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.03.04:443][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.04:466][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.03.04:484][893]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020DEA4302C0), frame # 46893
+[2025.04.06-19.03.04:484][893]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D354BA200), frame # 46893
+[2025.04.06-19.03.04:486][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.06-19.03.04:510][894]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.04.06-19.03.05:101][928]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.03.05:111][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.03.05:111][928]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:03:05 PM)
+[2025.04.06-19.03.05:111][928]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.03.05:119][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008129s)
+[2025.04.06-19.03.05:120][928]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.03.05:120][928]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020DEAEEC800), frame # 46928
+[2025.04.06-19.03.05:120][928]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D25DF34C0), frame # 46928
+[2025.04.06-19.03.05:120][928]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2025.04.06-19.03.05:120][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008925s)
+[2025.04.06-19.03.05:137][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.03.05:138][928]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.03.05:138][928]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.03.05:138][928]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.03.05:141][928]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.03.05:141][928]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.03.05:203][928]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.03.05:203][928]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.03.05:203][928]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.03.05:203][928]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.03.05:204][928]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.03.05:217][928]LogInit: FAudioDevice initialized.
+[2025.04.06-19.03.05:225][928]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.03.05:229][928]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.03.05
+[2025.04.06-19.03.05:230][928]LogWorld: Bringing up level for play took: 0.004976
+[2025.04.06-19.03.05:230][928]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2025.04.06-19.03.05:233][928]PIE: Server logged in
+[2025.04.06-19.03.05:233][928]PIE: Play in editor total start time 0.123 seconds.
+[2025.04.06-19.03.07:389][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.03.07:389][ 54]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.03.07:390][ 54]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.03.07:392][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.07:399][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.03.07:402][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.07:427][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.03.07:446][ 54]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D25DF34C0), frame # 47054
+[2025.04.06-19.03.07:446][ 54]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020DEAEEC800), frame # 47054
+[2025.04.06-19.03.07:447][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.04.06-19.03.07:460][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.04.06-19.03.08:196][ 97]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/FruitingBodiesApp.FruitingBodiesApp
+[2025.04.06-19.03.11:119][259]LogSlate: Window 'FruitingBodiesApp' being destroyed
+[2025.04.06-19.03.11:132][259]LogSlate: Window 'FruitingBodiesApp' being destroyed
+[2025.04.06-19.03.11:133][259]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.03.11:133][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.11:135][259]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.03.11:135][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.03.12:035][310]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.03.16:518][565]LogHttp: Warning: 0000020DE62BB900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-19.03.16:518][565]LogHttp: Warning: 0000020DE62BB900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-19.03.16:518][565]LogHttp: Warning: 0000020DE62BB900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-19.03.16:518][565]LogHttp: Warning: 0000020DE62BB900: libcurl info message cache 1 (Closing connection 6)
+[2025.04.06-19.03.16:534][566]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-19.03.32:219][505]LogEditorTransaction: Undo Set Key Value
+[2025.04.06-19.03.32:581][521]LogEditorTransaction: Undo Set Key Value
+[2025.04.06-19.03.48:545][472]LogEditorTransaction: Undo Set Key Value
+[2025.04.06-19.03.55:882][899]LogEditorTransaction: Undo Set Key Value
+[2025.04.06-19.04.11:203][806]BlueprintLog: New page: Compile Canvas
+[2025.04.06-19.04.11:234][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.04.06-19.04.11:609][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-19.04.11:625][823]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/Canvas2C2DA05B45AF525DE1464194B88AEFD5.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-19.04.11:642][823]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-19.04.11:642][823]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.04.12:401][869]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-19.04.12:415][869]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-19.04.12:417][869]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.04.12:417][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.04.12:425][869]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.04.12:425][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.04.13:024][903]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.04.13:032][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.04.13:032][903]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:04:13 PM)
+[2025.04.06-19.04.13:032][903]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.04.13:041][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008239s)
+[2025.04.06-19.04.13:041][903]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.04.13:041][903]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D8F164200), frame # 50903
+[2025.04.06-19.04.13:041][903]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D93E7E480), frame # 50903
+[2025.04.06-19.04.13:041][903]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2025.04.06-19.04.13:041][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009057s)
+[2025.04.06-19.04.13:059][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.04.13:060][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.04.13:060][903]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.04.13:060][903]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.04.13:063][903]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.04.13:063][903]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.04.13:124][903]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.04.13:124][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.04.13:124][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.04.13:124][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.04.13:124][903]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.04.13:138][903]LogInit: FAudioDevice initialized.
+[2025.04.06-19.04.13:144][903]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.04.13:148][903]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.04.13
+[2025.04.06-19.04.13:150][903]LogWorld: Bringing up level for play took: 0.005112
+[2025.04.06-19.04.13:150][903]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2025.04.06-19.04.13:153][903]PIE: Server logged in
+[2025.04.06-19.04.13:154][903]PIE: Play in editor total start time 0.122 seconds.
+[2025.04.06-19.04.23:489][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.04.23:489][520]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.04.23:490][520]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.04.23:495][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.04.23:504][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.04.23:506][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.04.23:545][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.04.23:547][520]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D93E7E480), frame # 51520
+[2025.04.06-19.04.23:547][520]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D8F164200), frame # 51520
+[2025.04.06-19.04.23:549][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.06-19.04.23:561][521]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.04.06-19.04.24:128][555]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.04.24:139][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.04.24:139][555]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:04:24 PM)
+[2025.04.06-19.04.24:139][555]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.04.24:147][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008183s)
+[2025.04.06-19.04.24:148][555]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.04.24:148][555]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D938B7000), frame # 51555
+[2025.04.06-19.04.24:148][555]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D98DFBEC0), frame # 51555
+[2025.04.06-19.04.24:148][555]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2025.04.06-19.04.24:148][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009047s)
+[2025.04.06-19.04.24:165][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.04.24:165][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.04.24:165][555]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.04.24:165][555]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.04.24:169][555]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.04.24:169][555]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.04.24:220][555]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.04.24:220][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.04.24:220][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.04.24:220][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.04.24:221][555]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.04.24:235][555]LogInit: FAudioDevice initialized.
+[2025.04.06-19.04.24:240][555]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.04.24:244][555]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.04.24
+[2025.04.06-19.04.24:245][555]LogWorld: Bringing up level for play took: 0.004498
+[2025.04.06-19.04.24:245][555]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2025.04.06-19.04.24:249][555]PIE: Server logged in
+[2025.04.06-19.04.24:250][555]PIE: Play in editor total start time 0.111 seconds.
+[2025.04.06-19.04.27:309][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.04.27:309][736]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.04.27:309][736]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.04.27:313][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.04.27:325][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.04.27:327][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.04.27:352][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.04.27:376][736]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D98DFBEC0), frame # 51736
+[2025.04.06-19.04.27:376][736]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D938B7000), frame # 51736
+[2025.04.06-19.04.27:377][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.06-19.04.27:395][737]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.04.06-19.04.44:787][902]LogTemp: Repeating last play command: Selected Viewport
+[2025.04.06-19.04.44:798][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.06-19.04.44:798][902]PIE: New page: PIE session: Minimal_Default (Apr 6, 2025, 9:04:44 PM)
+[2025.04.06-19.04.44:798][902]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.04.44:806][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007975s)
+[2025.04.06-19.04.44:807][902]LogAIModule: Creating AISystem for world Minimal_Default
+[2025.04.06-19.04.44:807][902]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D95512000), frame # 51902
+[2025.04.06-19.04.44:807][902]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D98DFAFC0), frame # 51902
+[2025.04.06-19.04.44:807][902]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2025.04.06-19.04.44:807][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008774s)
+[2025.04.06-19.04.44:821][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.04.06-19.04.44:822][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.06-19.04.44:822][902]LogAudio: Display: Using built-in audio occlusion.
+[2025.04.06-19.04.44:822][902]LogAudioMixer: Display: Initializing audio mixer.
+[2025.04.06-19.04.44:825][902]LogAudioMixer: Display: 0: FrontLeft
+[2025.04.06-19.04.44:825][902]LogAudioMixer: Display: 1: FrontRight
+[2025.04.06-19.04.44:882][902]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2025.04.06-19.04.44:882][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.06-19.04.44:882][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.06-19.04.44:882][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.06-19.04.44:883][902]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2025.04.06-19.04.44:896][902]LogInit: FAudioDevice initialized.
+[2025.04.06-19.04.44:905][902]LogLoad: Game class is 'MossMode_C'
+[2025.04.06-19.04.44:909][902]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2025.04.06-20.04.44
+[2025.04.06-19.04.44:912][902]LogWorld: Bringing up level for play took: 0.006335
+[2025.04.06-19.04.44:912][902]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2025.04.06-19.04.44:915][902]PIE: Server logged in
+[2025.04.06-19.04.44:916][902]PIE: Play in editor total start time 0.118 seconds.
+[2025.04.06-19.05.02:768][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.05.02:769][971]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2025.04.06-19.05.02:769][971]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.05.02:772][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.05.02:779][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.06-19.05.02:780][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.05.02:800][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.06-19.05.02:819][971]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D98DFAFC0), frame # 52971
+[2025.04.06-19.05.02:819][971]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D95512000), frame # 52971
+[2025.04.06-19.05.02:820][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.04.06-19.05.02:862][973]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.04.06-19.05.04:467][ 66]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.05.16:569][768]LogHttp: Warning: 0000020D35528800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.04.06-19.05.16:569][768]LogHttp: Warning: 0000020D35528800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.04.06-19.05.16:569][768]LogHttp: Warning: 0000020D35528800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.04.06-19.05.16:569][768]LogHttp: Warning: 0000020D35528800: libcurl info message cache 1 (Closing connection 7)
+[2025.04.06-19.05.16:569][768]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4838B97-4AD9-E4A5-400C-CFBAEB407A2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=8e0866ac43912c7c02345ab800cb1c04%7Cffc0d4129dcb4c748bcf654db498ec55%7Cdbf903ab-c8fc-4d11-972f-6de9a0610fc9&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2025.04.06-19.05.21:554][ 60]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.06-19.05.30:511][596]BlueprintLog: New page: Compile Canvas
+[2025.04.06-19.05.30:538][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.04.06-19.05.30:884][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-19.05.30:900][614]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasBB2AAF9E4DBCD76EFA6C98BB803C333B.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-19.05.30:921][614]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-19.05.30:921][614]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.05.33:180][749]BlueprintLog: New page: Compile Canvas
+[2025.04.06-19.05.33:206][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2025.04.06-19.05.33:654][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-19.05.33:672][770]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasA4CEDA0C4D6BF2AF6A8978AAA93DB8B8.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-19.05.33:698][770]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-19.05.33:698][770]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.05.35:815][896]LogEditorTransaction: Undo Remove Widget
+[2025.04.06-19.05.39:836][126]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.06-19.05.41:050][197]BlueprintLog: New page: Compile Canvas
+[2025.04.06-19.05.41:079][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2025.04.06-19.05.41:421][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Canvas" FILE="../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset" SILENT=true
+[2025.04.06-19.05.41:439][213]LogSavePackage: Moving '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Saved/CanvasAFAACE994F32039D524A7BA24BEEA48C.tmp' to '../../../../../../Users/dsofi/Documents/fruitingbodies/FruitingBodies/Content/UI/Canvas.uasset'
+[2025.04.06-19.05.41:461][213]AssetCheck: New page: Asset Save: Canvas
+[2025.04.06-19.05.41:461][213]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/Canvas.Canvas
+[2025.04.06-19.05.42:233][259]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-19.05.42:251][259]LogSlate: Window 'Canvas' being destroyed
+[2025.04.06-19.05.42:253][259]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.05.42:253][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.05.42:261][259]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.04.06-19.05.42:261][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.06-19.05.46:453][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2025.04.06-19.05.47:173][550]Cmd: EDIT COPY
+[2025.04.06-19.05.47:460][567]Cmd: EDIT COPY
+[2025.04.06-19.05.49:601][692]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController
+[2025.04.06-19.05.51:409][778]LogRenderer: Reallocating scene render targets to support 1296x864 Format 10 NumSamples 1 (Frame:1).
+[2025.04.06-19.05.56:344][ 71]LogEditorTransaction: Undo Paste Component(s)
+[2025.04.06-19.05.57:056][ 97]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2025.04.06-19.05.57:056][ 97]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: === Critical error: ===
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: 
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp] [Line: 204] 
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: Renaming an object (StaticMeshComponent /Engine/Transient.Cube_2:StaticMeshComponent0) on top of an existing object (StaticMeshComponent /Game/Blueprints/BP_PlayerWorldController.BP_PlayerWorldController_C:StaticMesh_GEN_VARIABLE) is not allowed
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: 
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: 
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffbbac3ab6a KERNELBASE.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa92d5ec66 UE4Editor-Core.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa92d62048 UE4Editor-Core.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa92aee52d UE4Editor-Core.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa79b113ad UE4Editor-CoreUObject.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa76fa6093 UE4Editor-Engine.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa77a54610 UE4Editor-Engine.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa7400e6e5 UE4Editor-Kismet.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa73fbdeee UE4Editor-Kismet.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa7a222dc1 UE4Editor-Slate.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa7a25b54a UE4Editor-Slate.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa74004d6b UE4Editor-Kismet.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa7a1f061b UE4Editor-Slate.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa7a25d561 UE4Editor-Slate.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffa7a250f16 UE4Editor-Slate.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffb79897c25 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffb79885c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffb7989a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffb798817d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffbbb9ab643 USER32.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffbbb9a91cd USER32.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffb7989bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ff6d52268c4 UE4Editor.exe!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ff6d523ba7c UE4Editor.exe!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ff6d523bb5a UE4Editor.exe!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ff6d524e31d UE4Editor.exe!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ff6d525145a UE4Editor.exe!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffbbbd3e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: [Callstack] 0x00007ffbbd79bf6c ntdll.dll!UnknownFunction []
+[2025.04.06-19.05.58:724][ 97]LogWindows: Error: 
+[2025.04.06-19.05.58:733][ 97]LogExit: Executing StaticShutdownAfterError
+[2025.04.06-19.05.58:736][ 97]LogWindows: FPlatformMisc::RequestExit(1)
+[2025.04.06-19.05.58:736][ 97]LogCore: Engine exit requested (reason: Win RequestExit)
+[2025.04.06-19.05.58:738][ 97]Log file closed, 04/06/25 20:05:58
